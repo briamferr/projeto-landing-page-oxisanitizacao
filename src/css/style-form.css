@@ -1,0 +1,85 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #000000;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+    background-color: #50dd96;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+}
+
+.cabecalho h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    transition: 0.3s;
+    text-shadow: 1.5px 1.5px 0px rgba(136, 136, 136, 0.568);
+}
+
+.cabecalho a:hover h1{
+    color: #cfcfcf;
+}
+
+.formulario{
+    width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #50dd96;
+    border-radius: 10px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h1{
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.formulario label {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.formulario input, select {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #6d6d6d;
+    border-radius: 5px;
+}
+
+.formulario select {
+    width: 160px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.formulario button:hover {
+    background-color: #cfcfcf;
+    color: #000000;
+    border: 1px solid #6d6d6d;
+    border-radius: 5px;
+    transition: 0.3s;
+}
